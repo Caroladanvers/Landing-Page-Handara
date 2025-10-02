@@ -1,11 +1,8 @@
-        /* ========================================
-        CONFIGURAÇÕES GERAIS E VARIÁVEIS
-        ========================================
-        */
+
         :root {
-            --cor-primaria: #0a2342; /* Azul escuro, cor do jeans */
+            --cor-primaria: #0a2342; 
             --cor-secundaria: #ffffff;
-            --cor-destaque: #d9a474; /* Um tom de couro/cobre para botões e detalhes */
+            --cor-destaque: #d9a474; 
             --cor-texto: #333333;
             --fonte-titulo: 'Montserrat', sans-serif;
             --fonte-corpo: 'Roboto', sans-serif;
@@ -60,10 +57,6 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
 
-        /* ========================================
-        HEADER E NAVEGAÇÃO
-        ========================================
-        */
         .header {
             background-color: rgba(255, 255, 255, 0.9);
             padding: 15px 0;
@@ -111,12 +104,7 @@
             width: 100%;
         }
 
-        /* ========================================
-        SEÇÃO HERO (PRINCIPAL)
-        ========================================
-        */
         .hero {
-            /* ===> INSIRA A SUA IMAGEM DE FUNDO PRINCIPAL AQUI <=== */
             background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('imagens/bannerMS_desktop.png');
             background-size: cover;
             background-position: center;
@@ -144,11 +132,6 @@
             font-size: 1.2em;
             margin-bottom: 30px;
         }
-
-        /* ========================================
-        SEÇÃO DE PRODUTOS EM DESTAQUE
-        ========================================
-        */
         #produtos {
             background-color: #f9f9f9;
         }
@@ -183,10 +166,10 @@
 
         .product-card img {
            width: 100%;
-           height: auto; /* Deixe a altura ser definida pela proporção ou conteúdo */
-           aspect-ratio: 3 / 4; /* Ou 1 / 1 para quadrado, 16 / 9 para wide, etc. Escolha a melhor para seus produtos. */
-           object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
-           border-radius: 8px 8px 0 0; /* Se você quer bordas arredondadas apenas em cima */
+           height: auto; 
+           aspect-ratio: 3 / 4; 
+           object-fit: cover;
+           border-radius: 8px 8px 0 0; 
         }
 
         .product-info {
@@ -205,11 +188,7 @@
         .product-info .btn {
             margin-top: auto;
         }
-        
-        /* ========================================
-        SEÇÃO SOBRE A MARCA
-        ========================================
-        */
+
         .about-grid {
             display: flex;
             align-items: center;
@@ -232,18 +211,13 @@
             font-size: 2.5em;
             margin-bottom: 20px;
         }
-        
-        /* ========================================
-        SEÇÃO CALL-TO-ACTION (CTA)
-        ========================================
-        */
+ 
         .cta {
-             /* ===> VOCÊ PODE INSERIR OUTRA IMAGEM DE FUNDO AQUI <=== */
             background-image: linear-gradient(rgba(10, 35, 66, 0.8), rgba(10, 35, 66, 0.8)), url();
             background-size: cover;
             background-position: center;
-            background-attachment: fixed; /* Efeito Parallax */
-            background-attachment: scroll; /* Remover efeito Parallax em dispositivos móveis */
+            background-attachment: fixed; 
+            background-attachment: scroll; 
             text-align: center;
             color: var(--cor-secundaria);
         }
@@ -253,14 +227,10 @@
             color: var(--cor-secundaria);
             margin-bottom: 25px;
         }
-        
-        /* ========================================
-        FOOTER
-        ========================================
-        */
+    
         .footer {
             background-color: var(--cor-primaria);
-            color: #a7b4c4; /* Cor mais suave para o texto do rodapé */
+            color: #a7b4c4; 
             padding-top: 40px;
             padding-bottom: 40px;
             text-align: center;
@@ -282,10 +252,6 @@
             color: var(--cor-destaque);
         }
 
-        /* ========================================
-        RESPONSIVIDADE
-        ========================================
-        */
         @media (max-width: 768px) {
             .navbar {
                 flex-direction: column;
